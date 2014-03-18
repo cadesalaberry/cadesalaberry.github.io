@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>About C-A de Salaberry</title>
+
+	<link rel="Shortcut Icon" href="/index/favicon.ico" type="image/x-icon" />
+
+	<meta http-equiv="imagetoolbar" content="false" />
+
+	<!-- Disables caching on Search Engines servers -->
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta name="googlebot" content="noarchive" />
+	<meta name="robots" content="all" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Allows the use of Insight from Facebook -->
+	<meta property="fb:admins" content="800214182" />
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="./index/index.css">
+	<link rel="stylesheet" type="text/css" href="./index/pace.css">
+
+	<!-- Delays text and icon on loading -->
+	<script src='index/scrollReveal.js'></script>
+
+	<!-- Displays a discrete loading bar at the top of the page -->
+	<script src='index/pace.js'></script>
+</head>	
+    
+<body>
+
+	<div id="monogram" data-scrollreveal="enter from the left after 1s">
+		<img src="index/logo.png" alt="CAS logo" />
+	</div>
+
+	<!-- swap out for information about yourself -->
+	<div id="about" data-scrollreveal="enter from the right after 2s">
+
+		<h1>About</h1>
+
+		<p>
+			C-A de Salaberry is a very versatile programmer who strongly believes
+			software is about humanity, about helping people by using computer technology.
+			He has been following the Open Source movement since 2005, and really supports websites such as
+			<a href="//sourceforge.net">SourceForge</a>
+			and
+			<a href="https://github.com">Github</a>
+			for their code sharing initiative.
+			He is currently studying Software Engineering at
+			<a href="https://mcgill.ca">McGill University</a>
+			in his third year.
+		</p>
+
+		<p>
+			He posts photos to
+			<a href="//flickr.com/cadesalaberry"/>Flickr</a>,
+			listens to all his music on
+			<a href="//whyd.com/cadesalaberry">Whyd</a>.
+		</p>
+
+		<p>
+			As a <a href="//en.wikipedia.org/wiki/Third_culture_kid">third-culture kid</a>,
+			Charles-Antoine has lived on two continents and in three countries. After fifteen years in Paris,
+			he moved to San Francisco for two years before being accepted at McGill.
+			He currently lives in Montreal, Canada, where he has been developing his
+			<b>multimedia</b> and <b>leadership</b> skills over the past three years.
+		</p>
+
+		<h1>Software</h1>
+
+		<p>
+			Because an example is worth a million words, you can access most of the code he has written on his
+			<a href="//github.com/cadesalaberry">github</a>.
+		</p>
+		<p>
+			More on his presence online on <a href="//about.me/cadesalaberry">about.me</a>.
+			You can also get his professional public profile on <a href="ca.linkedin.com/in/">LinkedIn</a>.
+		</p>
+	</div>
+
+	<script>
+		window.scrollReveal = new scrollReveal();
+	</script>
+</body>
+<footer>
+	<!--includes jquery & backstretch-->
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="index/jquery.backstretch.min.js"></script>
+	<script type="text/javascript">
+
+		$(function(){
+		     $(window).resize(function(){
+			 if($(this).width() >= 767){
+			     $.backstretch("index/index.jpg", {speed: 150});
+			 }
+		      })
+		      .resize();//trigger resize on page load
+		});
+		$('a').hover(function() {
+			$(this).stop().animate({ fontSize : '120%' }, 69);
+		},
+		function() {
+			$(this).stop().animate({ fontSize : '100%' }, 96);
+		});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-46518403-1', 'c4labz.com');
+	  ga('send', 'pageview');
+
+	</script>
+</footer>
+</html>
