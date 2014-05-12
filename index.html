@@ -6,17 +6,17 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
+		<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="css/pace.css">
-		
-		<script type="text/javascript">
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-46518403-1', 'c4labz.com');
-		ga('send', 'pageview');
+		<script src="//cdnjs.cloudflare.com/ajax/libs/analytics.js/1.3.29/analytics.min.js"></script>
+  		
+		<script type="text/javascript">
+			analytics.initialize(
+				{ 'Google Analytics' : {trackingId : 'UA-46518403-1'},
+				  'Mixpanel' : {token : '423beed176924aed9e7747d295cf421d', people : true}
+			});
+			analytics.page('homepage');
 		</script>
 
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
