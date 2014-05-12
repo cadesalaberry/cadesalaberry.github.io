@@ -73,30 +73,45 @@
 		<!-- Contact -->
 			<article class="container box style3">
 				<header>
-					<h2>Want to get in touch ?</h2>
+					<h2>get in touch</h2>
 					<p>We would love to talk to you ! Mind dropping a line ?</p>
 				</header>
-				<form id="form" onsubmit="" action="">
-					<div class="row half">
-						<div class="6u"><input type="text" class="text" name="name" placeholder="Name"/></div>
-						<div class="6u"><input type="text" class="text" name="email" placeholder="Email"/></div>
+				<form action="http://c4labz.us8.list-manage1.com/subscribe/post?u=31c9e1397525fc188eb719c08&amp;id=4df392692c" method="post" id="form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div class="row half mc-field-group">
+						<div class="6u">
+							<input type="text" value="" name="NAME" class="required text" id="mce-NAME" placeholder="Name"/>
+						</div>
+						<div class="6u">
+							<input id="mce-EMAIL" type="text" value="" class="required text email" name="EMAIL" placeholder="Email"/>
+						</div>
 					</div>
 					<div class="row half">
 						<div class="12u">
-							<textarea name="message" placeholder="Message"></textarea>
+							<textarea type="text" value="" name="MESSAGE" class="" id="mce-MESSAGE" placeholder="Message"></textarea>
+
+							<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				  			<div style="position: absolute; left: -5000px;">
+				  				<input type="text" name="b_31c9e1397525fc188eb719c08_4df392692c" tabindex="-1" value="">
+				  			</div>
+							
 						</div>
 					</div>
 
 					<div class="row">
 						<div class="12u">
+							<div id="mce-responses" class="clear">
+								<div class="response" id="mce-error-response" style="display:none"></div>
+								<div class="response" id="mce-success-response" style="display:none"></div>
+							</div>
+
 							<ul class="actions">
-								<li><a type="submit" id="send" class="button form">Send Message</a></li>
+								<li><input type="submit" value="     Send     " name="subscribe" id="mc-embedded-subscribe" class="button"></li>
 							</ul>
 						</div>
 					</div>
 				</form>
 			</article>
-		
+
 		<section id="footer">
 			<ul class="icons">
 				<li><a href="https://flickr.com/cadesalaberry" class="fa fa-flickr solo"><span>Flickr</span></a></li>
@@ -110,36 +125,5 @@
 				</ul>
 			</div>
 		</section>
-		<script type="text/javascript">
-			function postToGoogle() {
-			    var field1 = $("#name").val();
-			    var field2 = $("#email").val();
-			    var field3 = $('#message').val();
-
-			    $.ajax({
-			        url: "https://docs.google.com/forms/d/1tpn4OK_DosXSDoaGIeNEU-4BvYeMPmx5253aMSei7Ck/formResponse",
-			        data: {"entry.1585000301": field1, "entry.79256490": field2, "entry.1589730496": field3},
-			        type: "POST",
-			        dataType: "xml",
-			        statusCode: {
-			            0: function() {
-			                //Success message
-			                alert("Thanks for the feedback ! 0");
-			            },
-			            200: function() {
-			                //Success Message
-			                alert("Thanks for the feedback ! 200");
-			            }
-			        }
-			    });
-			}
-			 
-			$(document).ready(function(){
-			    $('#form').submit(function() {
-			        postToGoogle();
-			        return false;
-			    });
-			});
-		</script>
 	</body>
 </html>
