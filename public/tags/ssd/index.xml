@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssd on Charles-Antoine de Salaberry</title>
+    <link>https://cadeesalaberry.github.io/tags/ssd/</link>
+    <description>Recent content in ssd on Charles-Antoine de Salaberry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 20:00:41 +0100</lastBuildDate><atom:link href="https://cadeesalaberry.github.io/tags/ssd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora on the HP Envy 15 1067NR</title>
+      <link>https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/</link>
+      <pubDate>Fri, 21 Feb 2014 20:00:41 +0100</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/</guid>
+      <description>&lt;p&gt;A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

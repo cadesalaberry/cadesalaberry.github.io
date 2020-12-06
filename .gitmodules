@@ -1,0 +1,9 @@
+[submodule "themes/dream"]
+	path = themes/dream
+	url = git@github.com:g1eny0ung/hugo-theme-dream.git
+[submodule "themes/twenty20"]
+	path = themes/twenty20
+	url = git@github.com:themefisher/twenty-twenty-hugo.git
+[submodule "themes/coder"]
+	path = themes/coder
+	url = git@github.com:luizdepra/hugo-coder.git

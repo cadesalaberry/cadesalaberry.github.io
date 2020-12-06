@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Charles-Antoine de Salaberry">
+    <meta name="description" content="A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS.">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Fedora on the HP Envy 15 1067NR"/>
+<meta name="twitter:description" content="A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS."/>
+
+    <meta property="og:title" content="Fedora on the HP Envy 15 1067NR" />
+<meta property="og:description" content="A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/" />
+<meta property="article:published_time" content="2014-02-21T20:00:41+01:00" />
+<meta property="article:modified_time" content="2014-02-21T20:00:41+01:00" />
+
+
+    <title>
+  Fedora on the HP Envy 15 1067NR · Charles-Antoine de Salaberry
+</title>
+
+    
+      <link rel="canonical" href="https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.7/css/fork-awesome.min.css" integrity="sha512-9QjPqX/aCNwEQDyMqqMluNOSsHxTwOJNO3d4m5aUeNbyOPm8RcBA5hCUhvGmKFtSmQYGajqPopGtD60FWiWUwg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/12.0.4/2/twemoji.min.js" integrity="sha512-panBjUGuKarjg0qxHggQULmRf9jB/YVCy238hmzBWUuLeOuwMSuJgJcUv3T+rwXUBZ9zeUvc49ZcCRH+EO0H8g==" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.79.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Charles-Antoine de Salaberry
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/readme/">README</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Fedora on the HP Envy 15 1067NR</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2014-02-21T20:00:41&#43;01:00'>
+                February 21, 2014
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/debug/">debug</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <a href="/tags/linux/">linux</a>
+      <span class="separator">•</span>
+    <a href="/tags/fedora/">fedora</a>
+      <span class="separator">•</span>
+    <a href="/tags/ssd/">ssd</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS.</p>
+<h2 id="ssd-optimisations">SSD Optimisations</h2>
+<p>From <a href="https://ask.fedoraproject.org/en/question/41664/optimization-for-an-ssd-on-fedora-20/">fedoraproject.org</a></p>
+<p>Add the following lines to <strong>/etc/fstab</strong></p>
+<pre><code>#SSD optimization,  /tmp to RAM 
+none             /tmp/                   tmpfs   size=10%                 0       0
+</code></pre>
+<p>=====</p>
+<p>From <a href="https://wiki.debian.org/SSDOptimization">debian.org</a></p>
+<p>Add the &ldquo;noatime&rdquo; (or &ldquo;relatime&rdquo;) mount option in <strong>/etc/fstab</strong>, to disable (or significantly reduce) disk writes whenever a file is read.</p>
+<p>To support discards with lvm, go modify your <strong>/etc/lvm/lvm.conf</strong> and enable <strong>issue_discards</strong>:</p>
+<pre><code>devices {
+...
+    # 1 enables; 0 disables.
+    #issue_discards = 0
+    issue_discards = 1
+}
+</code></pre>
+<p>=====</p>
+<p>From <a href="https://wiki.archlinux.org/index.php/Solid_State_Drives">ArchLinux</a></p>
+<p>Modifiy Mount flags to support <strong>discard</strong> and <strong>relatime</strong> :</p>
+<pre><code>/dev/mapper/fedora_hp--envy-root /                       ext4    defaults,relatime,discard        1 1
+UUID=a8c8c6c9-7377-4ae7-860b-d2727cae704b /boot                   ext4    defaults,discard        1 2
+/dev/mapper/fedora_hp--envy-home /home                   ext4    defaults,relatime,discard        1 2
+/dev/mapper/fedora_hp--envy-swap swap                    swap    defaults,discard        0 0
+</code></pre><p>=====</p>
+<h2 id="prevent-sleep-on-lid-closed">Prevent sleep on lid closed</h2>
+<pre><code>$ vi /etc/systemd/logind.conf
+</code></pre>
+<p>change</p>
+<pre><code>HandleLidSwitch=suspend
+</code></pre>
+<p>to</p>
+<pre><code>HandleLidSwitch=ignore
+</code></pre>
+<p>then restart the login service:</p>
+<pre><code>$ systemctl restart systemd-logind.service
+</code></pre>
+<p>Try closing the lid of the laptop and check it does not suspend.</p>
+<p>=====</p>
+<h2 id="grub-timeout">GRUB Timeout</h2>
+<p>When your system boots, you’ll see the GRUB menu, or if you’ve enabled the menu to show by default. The GRUB menu is displayed for a predetermined number of seconds. However, on Fedora, the default timeout is only 5 seconds. So you may want to change this timeout.</p>
+<ul>
+<li>Backup the /etc/default/grub file.</li>
+</ul>
+<pre><code>cp  -v  /etc/default/grub  /etc/default/grub.bak
+</code></pre><ul>
+<li>As the root user, open up the /etc/default/grub file in your favorite text editor:</li>
+</ul>
+<pre><code>	vi   /etc/default/grub
+</code></pre><ul>
+<li>
+<p>Now, edit the “GRUB_TIMEOUT” line. You will then have to regenerate the GRUB settings from the file.</p>
+</li>
+<li>
+<p>In terminal, run the following command to generate settings from /etc/default/grub file.</p>
+</li>
+</ul>
+<pre><code>	grub2-mkconfig  -o  /boot/grub2/grub.cfg
+</code></pre><ul>
+<li>Reboot and enjoy.</li>
+</ul>
+<p>=====</p>
+<h2 id="blackberry-dev">Blackberry Dev</h2>
+<p>From <a href="http://blog.e-bluesoft.com/?p=23">e-bluesoft.com</a>:</p>
+<p>Sometimes, after installing on Fedora, LPCExpresso does not start. The error shown is</p>
+<pre><code>java.lang.UnsatisfiedLinkError: Could not load SWT library. Reasons: 
+        /usr/local/lpcxpresso_5.2.4_2122/lpcxpresso/configuration/org.eclipse.osgi/bundles/214/1/.cp/libswt-pi-gtk-4236.so: libgtk-x11-2.0.so.0: cannot open shared object file: No such file or directory
+        no swt-pi-gtk in java.library.path
+        /home/laji/.swt/lib/linux/x86/libswt-pi-gtk-4236.so: libgtk-x11-2.0.so.0: cannot open shared object file: No such file or directory
+        Can't load library: /home/laji/.swt/lib/linux/x86/libswt-pi-gtk.so
+</code></pre><p>To solve this dependency problem, gtk-engines for linux32 has to be installed on the system, with the command:</p>
+<pre><code>$ yum install gtk2-engines.i686
+</code></pre>
+<p>Now LPCXpresso starts without any error.</p>
+<p>=====</p>
+<h2 id="gedit">Gedit</h2>
+<h3 id="failed-to-load-module-pk-gtk-module">Failed to load module &lsquo;pk-gtk-module&rsquo;</h3>
+<p>From <a href="http://mindthatbus.blogspot.fr/2011/12/failed-to-load-module-pk-gtk-module.html">mindthatbus.blogspot.fr</a></p>
+<p>When running gedit from a terminal I always got a message Failed to load module &lsquo;pk-gtk-module&rsquo; but gedit seemed to start normally. to fix it on Fedora 18 with Gnome3, I did the following steps:</p>
+<pre><code>$ yum remove PackageKit-gtk-module
+$ yum install PackageKit-gtk3-module
+</code></pre>
+<p>From the source:</p>
+<p>If you&rsquo;re interested, these packages load fonts needed to display documents in other languages.</p>
+<h3 id="failed-to-load-module-canberra-gtk-module">Failed to load module &lsquo;canberra-gtk-module&rsquo;</h3>
+<p>From <a href="http://forums.fedoraforum.org/showthread.php?t=257157">fedoraforum.org</a></p>
+<pre><code>$ yum install libcanberra-gtk2.i686
+</code></pre>
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>French obsessed with digital excellence.</p>
+      
+      
+      
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

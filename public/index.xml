@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charles-Antoine de Salaberry</title>
+    <link>https://cadeesalaberry.github.io/</link>
+    <description>Recent content on Charles-Antoine de Salaberry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 20:00:41 +0100</lastBuildDate><atom:link href="https://cadeesalaberry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora on the HP Envy 15 1067NR</title>
+      <link>https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/</link>
+      <pubDate>Fri, 21 Feb 2014 20:00:41 +0100</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/posts/fedora-on-the-hp-envy-15-1067nr/</guid>
+      <description>&lt;p&gt;A collection of Fedora 20 optimisations for my current setup (the SSD in a OCZ Vertez 3 120Go). Notice that most of my tweaks come from fedy, an excellent open source tool that does pretty much everything needed to get a more user friendly OS.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cadeesalaberry.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/about/</guid>
+      <description>Quick Bio I was born and raised in Paris, France. My interest in computers came pretty early when we received out first Windows 95 desktop computer at home. For some reason I was mesmerized by loading bars. I started some kind of hunt of the biggest loading bars you can find when using a computer. It eventually led me to reinstalling the operating system and switching the main home computer to Knoppix.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://cadeesalaberry.github.io/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/readme/</guid>
+      <description>C-A de Salaberry Personal README Inspired from Adrien Joly&amp;rsquo;s README, this text aims at introducing myself and share some information that maybe helpful for us to break the ice, communicate, collaborate and adjust expectations effectively.
+In it, I share my professional and personal values, what drives me, what makes me grumpy, and what my workflow looks like.
+Random facts  I&amp;rsquo;m driven by efficiency and improvement in general. This makes me exigent with others, but also with myself.</description>
+    </item>
+    
+  </channel>
+</rss>

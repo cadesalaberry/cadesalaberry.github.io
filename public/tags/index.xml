@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Charles-Antoine de Salaberry</title>
+    <link>https://cadeesalaberry.github.io/tags/</link>
+    <description>Recent content in Tags on Charles-Antoine de Salaberry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2014 20:00:41 +0100</lastBuildDate><atom:link href="https://cadeesalaberry.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fedora</title>
+      <link>https://cadeesalaberry.github.io/tags/fedora/</link>
+      <pubDate>Fri, 21 Feb 2014 20:00:41 +0100</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/tags/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://cadeesalaberry.github.io/tags/linux/</link>
+      <pubDate>Fri, 21 Feb 2014 20:00:41 +0100</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssd</title>
+      <link>https://cadeesalaberry.github.io/tags/ssd/</link>
+      <pubDate>Fri, 21 Feb 2014 20:00:41 +0100</pubDate>
+      
+      <guid>https://cadeesalaberry.github.io/tags/ssd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
