@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Charles-Antoine de Salaberry"
 theme = "coder"
 
-
+googleAnalytics="G-5D5CWBESS0"
 
 [params]
   author = "Charles-Antoine de Salaberry"
