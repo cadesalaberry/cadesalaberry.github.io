@@ -1,9 +1,12 @@
 [C-A de Salaberry](https://cadesalaberry.github.io)
 ==========
 
+![Picture on the quais in Paris](/paris-quais.png)
+
+
 ## Personal README
 
-Inspired by Adrien Joly's [README](https://github.com/adrienjoly/adrienjoly.github.com)], this text aims at introducing myself and sharing some information that may be helpful for us to break the ice, communicate, collaborate and adjust expectations effectively.
+Inspired by Adrien Joly's [README](https://github.com/adrienjoly/adrienjoly.github.com), this text aims at introducing myself and sharing some information that may be helpful for us to break the ice, communicate, collaborate and adjust expectations effectively.
 
 In it, I share my professional and personal values, what drives me, what makes me grumpy, and what my workflow looks like.
 
